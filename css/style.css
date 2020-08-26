@@ -1,0 +1,30 @@
+.bg {
+    background-color: #141414;
+    color: #2ce322;
+}
+
+h1 {
+    font-size: 62px;
+}
+
+header {
+    margin: 10% auto 2% auto;
+}
+
+#display {
+    text-align: center;
+    color: #eeffee;
+    font-size: 58px;
+    margin-top: 2%;
+    width: 100%;
+}
+
+button {
+    background-color: #141414;
+    color: #2ce322;
+    border: 1.5px solid #2ce322;
+    width: 15%;
+    text-align: center;
+    padding: 5px;
+    margin: 10px auto;
+}
