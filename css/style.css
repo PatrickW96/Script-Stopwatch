@@ -1,14 +1,15 @@
 .bg {
     background-color: #141414;
     color: #2ce322;
+    margin: 30px auto;
 }
 
 h1 {
-    font-size: 62px;
+    font-size: 3rem;
 }
 
-header {
-    margin: 10% auto 2% auto;
+.header {
+    margin: 8% auto 2% auto !important;
 }
 
 #display {
@@ -22,9 +23,5 @@ header {
 button {
     background-color: #141414;
     color: #2ce322;
-    border: 1.5px solid #2ce322;
-    width: 15%;
-    text-align: center;
-    padding: 5px;
-    margin: 10px auto;
+    border: 1.5px solid #2ce322 !important;
 }
