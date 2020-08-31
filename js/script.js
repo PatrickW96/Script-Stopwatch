@@ -1,35 +1,51 @@
-/* Defining Time Values for Stop Watch */
+/* var for time values */
 var seconds = 0;
 var minutes = 0;
 var hours = 0;
 
-var displaySeconds = 0;
-var displayMinutes = 0;
-var displayHours = 0;
+/* Creating var to hold the values that are going to be displayed to user */
+dispalySeconds = 0;
+displayMinutes = 0;
+displayHours = 0;
 
-/* Setting up the function that sets the values relative to time and increments those set values accordingly */
+/* Creating the stopwatch function */
 function stopWatch() {
-    seconds++; 
+    seconds++;
 
-    if(seconds / 60 === 1) {
+    if (seconds / 60 === 1) {
         seconds = 0;
         minutes++;
-    } 
-    if (minutes / 60 === 1) {
+    } if (minutes / 60 === 1) {
         minutes = 0;
-        hours++; 
+        hours++;
     }
 
+/* Defining displayValues */
     if (seconds < 10) {
         displaySeconds = "0" + seconds;
     } else {
         displaySeconds = seconds;
     }
 
+    if (minutes < 10) {
+        displayMinutes = "0" + minutes;
+    } else {
+        displayMinutes = minutes;
+    }
 
+    if (hours <10) {
+        displayHours = "0" + hours;
+    } else {
+        displayHours = hours;
+    }
 
-    document.getElementById("display").innerHTML = hours + ":" + minutes + ":" + seconds;
+    /* Targeting display to display stopWatch function */
 
+    document.getElementById("display").innerHTML = displayHours + ":" + displayMinutes + ":" + displaySeconds;
 }
 
-//window.setInterval(stopWatch, 1000)
+/* create a function to call when the start button is clicked */
+/* Create a function to call when the stop button is clicked  */
+/* Create a function to call when the reset button is clicked */
+
+// window.setInterval(stopWatch, 1000);
