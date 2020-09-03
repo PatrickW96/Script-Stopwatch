@@ -1,19 +1,16 @@
 .bg {
     background-color: #141414;
-    color: #2ce322;
-    margin: 30px auto;
+    color: hsl(117, 78%, 51%);
+    margin-top: 2%;
+    justify-content: center;
 }
 
 h1 {
     font-size: 3rem;
 }
 
-.header {
-    margin: 8% auto 2% auto !important;
-}
 
 #display {
-    text-align: center;
     color: #eeffee;
     font-size: 58px;
     margin-top: 2%;
