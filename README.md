@@ -1,2 +1,2 @@
 # Script-Stopwatch
-html files programmed with JavaScript to act like a stopwatch 
+Creating a stopwatch using simple javascript 
